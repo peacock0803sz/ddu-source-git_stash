@@ -10,7 +10,7 @@ This kind provides entry type of `git stash` result and actions.
 See |ddu-source-git_stash| for available sources.
 
 ==============================================================================
-INSTALL                                         *ddu-source-git_stash-install*
+INSTALL                                           *ddu-kind-git_stash-install*
 
 Please install |ddu| and |denops.vim|
 
