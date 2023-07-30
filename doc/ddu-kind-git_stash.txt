@@ -1,0 +1,39 @@
+*ddu-kind-git_stash.txt*	git stash kind for ddu.vim
+
+Author: Peacock(Yoichi Takai) <contact@peacock0803sz.com>
+License: MIT license
+
+==============================================================================
+INTRODUCTION                                 *ddu-kind-git_stash-introduction*
+
+This kind provides entry type of `git stash` result and actions.
+See |ddu-source-git_stash| for available sources.
+
+==============================================================================
+INSTALL                                         *ddu-source-git_stash-install*
+
+Please install |ddu| and |denops.vim|
+
+https://github.com/Shougo/ddu.vim
+https://github.com/vim-denops/denops.vim
+
+==============================================================================
+ACTIONS						*ddu-kind-git_stash-actions*
+
+                                               *ddu-kind-git_stash-action-pop*
+pop
+  Perform `git stash pop` for selected stash entry
+  
+                                              *ddu-kind-git_stash-action-drop*
+drop
+  Perform `git stash drop` for selected stash entry
+  
+                                             *ddu-kind-git_stash-action-apply*
+apply
+  Perform `git stash apply` for selected stash entry
+  
+                                             *ddu-kind-git_stash-action-clear*
+clear
+  Perform `git stash clear` for selected stash entry
+
+vim:tw=78:sw=2:ts=2:ft=help:norl:nowrap:

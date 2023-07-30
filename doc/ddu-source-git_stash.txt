@@ -1,0 +1,25 @@
+*ddu-source-git_stash.txt*	git stash source for ddu.vim
+
+Author: Peacock(Yoichi Takai) <contact@peacock0803sz.com>
+License: MIT license
+
+==============================================================================
+INTRODUCTION                               *ddu-source-git_stash-introduction*
+
+This source collects result of `git stash`
+See |ddu-kind-git_stash| for available item actions.
+
+==============================================================================
+INSTALL                                         *ddu-source-git_stash-install*
+
+Please install |ddu| and |denops.vim|
+
+https://github.com/Shougo/ddu.vim
+https://github.com/vim-denops/denops.vim
+
+==============================================================================
+EXAMPLES                                       *ddu-source-git_stash-examples*
+>
+	call ddu#start(#{ sources: [#{ name: 'git_stash' }] })
+<
+vim:tw=78:sw=2:ts=2:ft=help:norl:nowrap:
