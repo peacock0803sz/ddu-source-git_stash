@@ -1,4 +1,4 @@
-import type { Denops } from "https://deno.land/x/ddu_vim@v3.4.4/deps.ts";
+import type { Denops } from "https://deno.land/x/ddu_vim@v3.4.6/deps.ts";
 import * as batch from "https://deno.land/x/denops_std@v5.0.1/batch/batch.ts";
 
 export async function echoerr(denops: Denops, msg: string) {
