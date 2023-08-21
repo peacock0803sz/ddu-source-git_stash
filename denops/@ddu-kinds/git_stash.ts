@@ -1,11 +1,11 @@
-import { GetPreviewerArguments } from "https://deno.land/x/ddu_vim@v3.4.4/base/kind.ts";
+import { GetPreviewerArguments } from "https://deno.land/x/ddu_vim@v3.4.6/base/kind.ts";
 import {
   ActionArguments,
   ActionFlags,
   BaseKind,
   DduItem,
   Previewer,
-} from "https://deno.land/x/ddu_vim@v3.4.4/types.ts";
+} from "https://deno.land/x/ddu_vim@v3.4.6/types.ts";
 import { Denops } from "https://deno.land/x/denops_core@v5.0.0/mod.ts";
 
 type Params = Record<string, unknown>;
