@@ -1,8 +1,8 @@
-import type { GatherArguments } from "https://deno.land/x/ddu_vim@v3.4.6/base/source.ts";
-import { fn } from "https://deno.land/x/ddu_vim@v3.4.6/deps.ts";
-import { BaseSource, Item } from "https://deno.land/x/ddu_vim@v3.4.6/types.ts";
-import { TextLineStream } from "https://deno.land/std@0.197.0/streams/text_line_stream.ts";
-import * as chunkedStream from "https://deno.land/x/chunked_stream@0.1.2/mod.ts";
+import type { GatherArguments } from "https://deno.land/x/ddu_vim@v4.1.0/base/source.ts";
+import { fn } from "https://deno.land/x/ddu_vim@v4.1.0/deps.ts";
+import { BaseSource, Item } from "https://deno.land/x/ddu_vim@v4.1.0/types.ts";
+import { TextLineStream } from "https://deno.land/std@0.224.0/streams/text_line_stream.ts";
+import * as chunkedStream from "https://deno.land/x/chunked_stream@0.1.4/mod.ts";
 
 import { ActionData } from "../@ddu-kinds/git_stash.ts";
 import { ErrorStream } from "../ddu-source-git_stash/stream.ts";

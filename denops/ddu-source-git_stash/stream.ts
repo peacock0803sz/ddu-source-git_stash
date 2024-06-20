@@ -1,5 +1,5 @@
-import type { Denops } from "https://deno.land/x/ddu_vim@v3.4.6/deps.ts";
-import * as batch from "https://deno.land/x/denops_std@v5.0.1/batch/batch.ts";
+import type { Denops } from "https://deno.land/x/ddu_vim@v4.1.0/deps.ts";
+import * as batch from "https://deno.land/x/denops_std@v6.5.0/batch/batch.ts";
 
 export async function echoerr(denops: Denops, msg: string) {
   await batch.batch(denops, async (denops) => {

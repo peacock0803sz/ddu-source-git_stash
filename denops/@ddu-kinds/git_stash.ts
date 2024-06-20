@@ -1,12 +1,12 @@
-import { GetPreviewerArguments } from "https://deno.land/x/ddu_vim@v3.4.6/base/kind.ts";
+import { GetPreviewerArguments } from "https://deno.land/x/ddu_vim@v4.1.0/base/kind.ts";
 import {
   ActionArguments,
   ActionFlags,
   BaseKind,
   DduItem,
   Previewer,
-} from "https://deno.land/x/ddu_vim@v3.4.6/types.ts";
-import { Denops } from "https://deno.land/x/denops_core@v5.0.0/mod.ts";
+} from "https://deno.land/x/ddu_vim@v4.1.0/types.ts";
+import { Denops } from "https://deno.land/x/denops_core@v6.1.0/mod.ts";
 
 type Params = Record<string, unknown>;
 type Never = Record<never, never>;
